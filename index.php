@@ -47,7 +47,7 @@ while ($dataDrag_Drop = mysqli_fetch_assoc($resultadodrag_drop)) { ?>
 
         <div class="barra" id="<?php echo $dataDrag_Drop['id']; ?>">
         <a href="#" class="editar">
-            <i class="zmdi zmdi-edit"> </i>
+            <i class="zmdi zmdi-delete  zmdi-hc-lg"> </i>
             Eliminar
         </a>
     </div>
